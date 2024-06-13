@@ -42,6 +42,9 @@
                                 <color key="tintColor" red="0.41568624970000001" green="0.7254902124" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tRv-Tj-B3e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylc-Ni-neJ">
                                 <rect key="frame" x="192" y="488" width="84" height="35"/>
@@ -129,6 +132,12 @@
                             <constraint firstItem="PBo-2F-E6u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y8T-q5-7no"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EmailTextField" destination="0zD-7K-sp1" id="Khu-M7-YVf"/>
+                        <outlet property="LoginButton" destination="wcu-59-sGq" id="8M7-kE-cpn"/>
+                        <outlet property="PasswordTextField" destination="PBo-2F-E6u" id="NYj-va-Qqn"/>
+                        <outlet property="TitleLabel" destination="Cdy-jn-ErZ" id="5YH-Ui-yx4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
