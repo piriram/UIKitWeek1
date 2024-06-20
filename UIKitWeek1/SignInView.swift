@@ -13,7 +13,6 @@ struct SignInView: View {
     }
 }
 
-
 struct ViewControllerWrapper: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> ViewController {
         // 스토리보드에서 ViewController 인스턴스를 생성
